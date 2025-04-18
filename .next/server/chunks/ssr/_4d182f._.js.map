@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/pandey/webdev/lib/utils.ts"],"sourcesContent":["import { ClassValue, clsx } from \"clsx\";\nimport { twMerge } from \"tailwind-merge\";\n \nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}"],"names":[],"mappings":";;;AAAA;AACA;;;AAEO,SAAS,GAAG,GAAG,MAAoB;IACxC,OAAO,CAAA,GAAA,2JAAA,CAAA,UAAO,AAAD,EAAE,CAAA,GAAA,qIAAA,CAAA,OAAI,AAAD,EAAE;AACtB"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///Users/pandey/webdev/app/page.tsx"],"sourcesContent":["import React from 'react'\nimport {GridBackgroundDemo} from \"@/components/background\"\nconst page = () => {\n  return (\n    <div>\n      <GridBackgroundDemo/>\n    </div>\n  )\n}\n\nexport default page\n"],"names":[],"mappings":";;;;AACA;;;AACA,MAAM,OAAO;IACX,qBACE,8OAAC;kBACC,cAAA,8OAAC,yHAAA,CAAA,qBAAkB;;;;;;;;;;AAGzB;uCAEe"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
